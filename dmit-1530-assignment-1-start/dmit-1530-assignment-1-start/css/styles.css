@@ -136,3 +136,37 @@ h2 {
 .icons p>span {
     font-weight: 600;
 }
+
+.doctors {
+    background-color: var(--inner-background);
+    padding: 4.6875rem;
+}
+
+.doctors h2 {
+    color: var(--close-purple);
+}
+
+.doctors div {
+    background-color: var(--card-texts);
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.doctors p {
+    text-transform: capitalize;
+    margin: 0 0 1rem 1rem;
+}
+
+.doctors h3 {
+    color: var(--inner-background);
+    margin: 1rem 0 0 1rem;
+    font-size: 1.875rem;
+}
+
+.doctors a {
+    margin-left: auto;
+    display: block;
+    width: fit-content;
+    color: var(--close-purple);
+    text-decoration: none;
+}
