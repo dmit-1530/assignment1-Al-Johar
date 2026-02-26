@@ -1,5 +1,17 @@
 :root {
+    --background: white;
 
+    --inner-background: #472360;
 
+    --text: #1E2019;
 
+    --texts-background: #F8F2F8;
+
+    --icons: #99DDC8;
+
+    --close-purple: #DDC4DD;
+
+    --card-texts: #EFF5FF;
+
+    --nth-text: #1B2C51;
 }
