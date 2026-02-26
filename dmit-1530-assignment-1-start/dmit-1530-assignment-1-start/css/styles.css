@@ -15,3 +15,124 @@
 
     --nth-text: #1B2C51;
 }
+
+.container {
+    max-width: 80rem;
+    margin: 0 auto;
+    font-family: "roboto", sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header div,
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+header li {
+    width: calc((100%/2) - (1rem/2));
+}
+
+h1 {
+    font-family: "roboto", sans-serif;
+    font-size: 3.125rem;
+    color: var(--inner-background);
+}
+
+h2 {
+    font-size: 3rem;
+    color: var(--inner-background);
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.8rem;
+}
+
+.numbers {
+    text-align: center;
+    padding: 2rem;
+}
+
+.numbers div p:first-child {
+    color: var(--inner-background);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.us {
+    background-color: var(--inner-background);
+    padding: 1.5rem;
+}
+
+.us>h2,
+.us p {
+    color: var(--close-purple);
+    padding-bottom: 1.5rem;
+    text-align: left;
+}
+
+.flex div {
+    display: flex;
+    gap: 1rem;
+}
+
+.flex div {
+    align-items: baseline;
+}
+
+.flex a {
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    color: var(--inner-background);
+    background-color: var(--close-purple);
+    margin-top: 4rem;
+}
+
+.flex {
+    overflow: auto;
+}
+
+.flex a {
+    display: inline-block;
+    margin: 4.375rem 0;
+    border-radius: .5rem;
+}
+
+.choose-us {
+    margin: 1.5625rem;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.icons div {
+    display: flex;
+    width: calc((100% / 2) - (2rem / 2));
+    align-items: center;
+    gap: 1rem;
+}
+
+.icons img {
+    height: 1.4375rem;
+    width: 1.2581rem;
+}
+
+.icons p {
+    width: 10ch;
+    text-transform: capitalize;
+}
+
+.icons p>span {
+    font-weight: 600;
+}
